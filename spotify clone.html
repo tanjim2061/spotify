@@ -1,0 +1,41 @@
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spotify - Your favourite music is here</title>
+        <link rel="stylesheet" href="spotify.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>MySpotify</h1>
+
+            </header>
+            <main>
+                <div class="songlist">
+                    <div class="song" data-index="0">
+                        <div class ="Details"></div>
+                            <div class="title">Chill vibes</div>
+                            <div class="artist">LOfi beats</div>
+
+                        </div>
+                        <button class="play-button">▶</button>
+                    </div>
+                </div>
+            </main>
+            <footer class= "player">
+                <div class="info">⏯️ select your favourite song</div>
+                <input type="range" class="progress" value="0"/>
+                <div class ="controls">
+                    <button id="prev">⏮️</button>
+                    <button id="play">⏯️</button>
+                    <button id="next">⏭️</button>
+                </div>
+            </footer>
+        </div>
+        <script src="spotify.js"></script>
+
+    </body>
+  </html>
